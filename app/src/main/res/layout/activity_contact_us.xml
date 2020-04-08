@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:padding="20dp"
+    tools:context=".ContactActivity">
+
+    <ImageView
+        android:elevation="20dp"
+        android:id="@+id/mainIV"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_contact" />
+
+    <TextView
+        android:elevation="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/mainIV"
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Contact Us"
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+    <TextView
+        android:elevation="10dp"
+        android:layout_below="@id/tv1"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/black"
+        android:layout_centerInParent="true"
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Contact Us at +918979497968"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:elevation="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2"
+        android:layout_marginTop="20dp"
+        android:text="Email Us at pcapauri222180@gmail.com"
+        android:textSize="18sp" />
+
+</RelativeLayout>

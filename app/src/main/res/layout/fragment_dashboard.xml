@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed"
+    android:padding="10dp"
+    tools:context=".DashboardFragment">
+
+    <ProgressBar
+        android:id="@+id/prBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/nothingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prBar"
+        android:layout_centerHorizontal="true"
+        android:text="Nothing here .. "
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/nothingImage"
+        android:visibility="gone"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/nothingText"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/megaphone"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:elevation="21dp"
+        android:src="@drawable/megaphone" />
+
+    <TextView
+        android:id="@+id/announcementTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_background"
+        android:elevation="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Announcements"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/announcementList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/announcementTV"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="?actionBarSize" />
+
+</RelativeLayout>

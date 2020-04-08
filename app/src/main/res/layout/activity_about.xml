@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/btn_back"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/main_icon"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_below="@+id/iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PCA Student App"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_below="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0.0"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_below="@+id/tv2"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="©2020 Student App"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

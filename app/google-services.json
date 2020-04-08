@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "927965930297",
+    "firebase_url": "https://p-c-a-pauri-garhwal.firebaseio.com",
+    "project_id": "p-c-a-pauri-garhwal",
+    "storage_bucket": "p-c-a-pauri-garhwal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927965930297:android:cc23e18ec94e8e19fffee8",
+        "android_client_info": {
+          "package_name": "com.akrwt.pcapaurigarhwal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927965930297-7u3lpqqhtvbs2826gph7shbnk9s6ndh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6r93gqX8meKcxQpu3Zbg9_G2Q6XOLTdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927965930297-7u3lpqqhtvbs2826gph7shbnk9s6ndh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927965930297:android:d891f3cab661b183fffee8",
+        "android_client_info": {
+          "package_name": "com.akrwt.pcastudentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927965930297-7u3lpqqhtvbs2826gph7shbnk9s6ndh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6r93gqX8meKcxQpu3Zbg9_G2Q6XOLTdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927965930297-7u3lpqqhtvbs2826gph7shbnk9s6ndh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
